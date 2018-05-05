@@ -19,3 +19,8 @@ Appropiate documentation contating the description and usage of the component ha
 5. Footer
 6. Pagination
 7. Typography
+
+
+# Navigation
+Navigation bar is a graphical user interface which helps the users to access information on the website.
+
