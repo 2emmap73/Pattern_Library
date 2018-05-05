@@ -1,0 +1,349 @@
+<!--
+        Pratik Emmanuel
+		21/04/2018
+		This is the Pattern Library six Buttons types Page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- ensures the document is using the correct char set --> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Buttons </title>
+	<script src="JavaScript/main.js"></script>
+	<link rel="stylesheet" href="CSS/main.css?v=1.0">
+	<link rel="icon" href="Favicon.png">
+</head>
+
+<body>
+<main>
+  <aside class="library-sidebar">
+	<a href = "home.html" class = "mainLogo">
+	<img class="logo" src="Images/Logo.jpg" alt="Main Logo">
+	</a>
+    <nav class="library-sidebar--nav">
+      <ul>
+        <li><a href="home.html" class="is-active">Home</a></li>
+        <li><a href="index.html">Typography</a></li>
+		<li><a href="navigation.html">Navigation</a></li>
+	  </ul>
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Buttons</button>
+		<div id="myDropdown" class="dropdown-content">
+			<ul>
+				<li> <a href="Buttons.html">Default Button</a></li>
+				<li> <a href="Buttons.html#ghost">Ghost Button</a></li>
+				<li> <a href="Buttons.html#dropdown-button">Dropdown Button</a></li>
+				<li> <a href="Buttons.html#flatbutton">Flat Button</a></li>
+				<li> <a href="Buttons.html#smallbutton">Small Button</a></li>
+				<li> <a href="Buttons.html#icon_button">Icon Button</a></li>
+			</ul>
+		</div>
+		</div>
+	   <ul>
+        <li><a href="Carousel.html">Carousel</a></li>
+        <li><a href="Jumbotron.html">Jumbotron</a></li>
+        <li><a href="footer.html">Footer</a></li>
+        <li><a href="Pagination.html">Pagination</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="content">
+  <nav class="breadcrumbs">
+      <ul>
+        <li><a href="">Library</a></li>
+        <li>/</li>
+        <li><a href="">Buttons</a></li>
+      </ul>
+    </nav>
+    <article>
+      <section>
+        <header>
+            <h1>Buttons</h1>
+            <h2> Default Button </h2> 
+			<p> When users first look at a particular page which contains more than one or just one button, they are looking at a default button. These default buttons wait for the user to interact with them.</p>
+			<h3> Usage </h3>
+			<p> Default Buttons are to call an action such as, when a user clicks on the 'Search' button on any website that has a search tab, the user gets all the results of their search terms. </p>
+			<div id = "preview">
+				<button class = "button"> Default Button </button>
+			</div> <!--[END]#preview -->	
+	<div class = "rect">	
+	<div id = "code_snippet" class = "col-4">
+	<h3> HTML </h3>
+	<pre> 
+	&lt;div id = &quot;preview&quot;&gt;
+	  &lt;button class = &quot;button&quot;&gt; Default Button &lt;/button&gt;
+	&lt;/div&gt; <!--[END]#preview --> 
+	</pre>
+	</div>
+	
+	<div id = "code_snippetcs" class = "col-4">
+	<h3> CSS </h3>
+	<pre> 
+	.button {
+		padding: 20px 34px;
+		background-color: #b90060;
+		color: white;
+		font-weight: 700;
+		border: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.button:hover {
+		background-color: white;
+		border: 2px solid #b90060;
+		color: purple;
+	}					
+	</pre>
+	</div> <!--[END]code_snippetcs -->
+	</div>
+	
+	<div id = "ghost">
+	<h2> Ghost Button </h2> 
+			<p> Ghost Buttons are empty, transparent buttons which have basic shape like square and rectangle. Sometimes, Ghost buttons are also used instead of Default buttons.</p>
+			<h3> Usage </h3>
+			<p> The most effective way of using a Ghost Button is to ensure that the user follows a principle of looking at the website from left to right. This would ensure that the last thing the user would do is to click on the Ghost button to call an action.</p>
+			<div id = "Ghost-button">
+				<button class = "ghost-button"> Ghost Button </button>
+			</div> <!--[END]#Ghost-button -->	
+	<div class = "rect">	
+	<div id = "ghost_code_snippet" class = "col-4">
+	<h3> HTML </h3>
+	<pre> 
+	&lt;div id = &quot;Ghost-button&quot;&gt;
+	  &lt;button class = &quot;ghost-button&quot;&gt; Ghost Button &lt;/button&gt;
+	&lt;/div&gt; <!--[END]#Ghost-button -->
+	</pre>
+	</div> <!--[END]ghost_code_snippet-->
+	
+	<div id = "ghost_code_snippetcs" class = "col-4">
+	<h3> CSS </h3>
+	<pre> 
+	.ghost-button {
+		padding: 20px 34px;
+		background-color: white;
+		color: purple;
+		font-weight: 700;
+		border: 2px solid purple;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ghost-button:hover {
+		background-color: #4A0148;
+		border: 2px solid purple;
+		color: white;
+}				
+	</pre>
+	</div> <!--[END]ghost_code_snippetcs -->
+	</div>
+	</div>
+	
+	<div id = "dropdown-button">
+	<h2> Dropdown Button </h2> 
+			<p>Dropdown buttons are elements, which when clicked, displays additional contents. </p>
+			<h3> Usage </h3>
+			<p>The most common way to use a Dropdown button is to organise pages in one section. This is essentialy a sub-menu. Dropdown menus can also be used in blogs. Using it would increase the chance of enhancing the website's appearance by making it clean.</p>
+			<div id = "drpdown">
+			<div class="dropdown_button">
+				<button class="dropdwnbtn">Dropdown </button>
+			<div class="dropdwndown_content">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div><!--[END]#dropdwndown_content -->
+			</div><!--[END]#dropdown_button -->
+			</div><!--[END]#drpdown -->
+	<div class = "rect">	
+	<div id = "dropdown_code_snippet" class = "col-4">
+	<h3> HTML </h3>
+	<pre> 
+	&lt;div class = &quot;dropdown_button&quot;&gt;
+	   &lt;button class = &quot;dropdwnbtn&quot;&gt; Dropdown &lt;/button&gt;
+	&lt;div class = &quot;dropdown_content&quot;&gt;
+	   &lt;a href = &quot;#&quot;&gt;Link 1 &lt;/a&gt;
+	   &lt;a href = &quot;#&quot;&gt;Link 2 &lt;/a&gt;
+	   &lt;a href = &quot;#&quot;&gt;Link 3 &lt;/a&gt;
+	&lt;/div&gt; <!--[END]#dropdown_content -->
+	&lt;/div&gt; <!--[END]#dropdown_button -->
+	</pre>
+	</div> <!--[END]dropdown_code_snippet-->
+	
+	<div id = "dropdown_code_snippetcs" class = "col-4">
+	<h3> CSS </h3>
+	<pre> 
+	.dropdwnbtn {
+		background-color: #4CAF50;
+		color: white;
+		padding: 16px 34px;
+		font-size: 16px;
+		border: none;
+	}
+
+	.dropdown_button {
+		position: relative;
+		display: inline-block;
+		margin: 0% 43%;
+	}
+
+	.dropdwndown_content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdwndown_content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdwndown_content a:hover {background-color: #ddd}
+
+	.dropdown_button:hover .dropdwndown_content {
+		display: block;
+	}
+
+	.dropdwnbtn:hover .dropdown_button {
+		background-color: #3e8e41;
+	}		
+	</pre>
+	</div> <!--[END]dropdown_code_snippetcs -->
+	</div>
+	</div>
+	
+	<div id = "flatbutton">
+	<h2> Flat Button </h2> 
+			<p> Flat buttons are not like other buttons, they are text-only buttons.</p>
+			<h3> Usage </h3>
+			<p> Flat buttons are used in toolbars, inline and dialogs. These buttons do not lift, but fill with colour when pressed. </p>
+			<div id = "Flat-button">
+				<button class = "flat-button"> Flat Button </button>
+			</div> <!--[END]#flat-button -->	
+	<div class = "rect">	
+	<div id = "flat_code_snippet" class = "col-4">
+	<h3> HTML </h3>
+	<pre> 
+	&lt;div id = &quot;Flat-button&quot;&gt;
+	  &lt;button class = &quot;flat-button&quot;&gt; Flat Button &lt;/button&gt;
+	&lt;/div&gt; <!--[END]#flat-button -->
+	</pre>
+	</div> <!--[END]#flat_code_snippet-->	
+	<div id = "flat_code_snippetcs" class = "col-4">
+	<h3> CSS </h3>
+	<pre> 
+	#Flat-button {
+		padding: 20px;
+		border-top: 2px solid black;
+	}
+	.flat-button {
+		border: none;
+		background-color: white;
+		color: #2c2cf9;
+		font-size: 118%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.flat-button:hover {
+		padding: 16px 34px;
+		background-color: #d8d7d7;
+		color: #2c2cf9;
+		border-color: #4fd620;
+	}
+	</pre>
+	</div> <!--[END]flat_code_snippetcs -->
+	</div>
+	</div>
+	
+	<div id = "smallbutton">
+	<h2> Small Button </h2> 
+			<p> Buttons can come in any size. User interprets the meaning of each button size differently.</p>
+			<h3> Usage </h3>
+			<p> Small buttons can be used in forms such as 'cancel', 'Next'. It can also be used in smaller screens.</p>
+			<div id = "small-button">
+				<button class = "small_button"> Small Button </button>
+			</div> <!--[END]#small-button -->	
+	<div class = "rect">	
+	<div id = "small_button_code_snippet" class = "col-4">
+	<h3> HTML </h3>
+	<pre> 
+	&lt;div id = &quot;Small-button&quot;&gt;
+	  &lt;button class = &quot;small_button&quot;&gt; Small Button &lt;/button&gt;
+	&lt;/div&gt; <!--[END]#small-button -->
+	</pre>
+	</div> <!--[END]#small_button_code_snippet-->
+	
+	<div id = "small_button_code_snippetcs" class = "col-4">
+	<h3> CSS </h3>
+	<pre> 
+	#small-button {
+		padding: 20px;
+	}
+	.small_button {
+		background-color: #ff4242;
+		padding: 14px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+		color: white;
+		font-size: 0.9em;
+	}
+	</pre>
+	</div> <!--[END]#small_button_code_snippetcs -->
+	</div>
+	</div>
+	
+	<div id = "icon_button">
+	<h2> Icon Button </h2> 
+			<p>All buttons perform a call of action. Buttons with icons also perform a call of action just like other buttons. </p>
+			<h3> Usage </h3>
+			<p> Icons used in buttons help users to know what action they are about to take place before they click that button. An example of this would be when a user is about to download a software or an image, the download button would have a 'down' arrow, giving a clear message to the user that they are about to download the file when they click the button. </p>
+			<div id = "icon-button">
+				<button class = "icon_button"> Download  <img src="Images/down_arrow.png" alt="down arrow"> </button>
+			</div> <!--[END]#icon-button -->	
+	<div class = "rect">	
+	<div id = "icon_button_code_snippet" class = "col-4">
+	<h3> HTML </h3>
+	<pre> 
+	&lt;div id = &quot;icon-button&quot;&gt;
+	  &lt;button class = &quot;icon_button&quot;&gt; Download &lt;img src=&quot;Images/down_arrow.png&quot; &lt;/button&gt;
+	&lt;/div&gt; <!--[END]#icon-button -->
+	</pre>
+	</div> <!--[END]#icon_button_code_snippet-->
+	
+	<div id = "icon_button_code_snippetcs" class = "col-4">
+	<h3> CSS </h3>
+	<pre> 
+	.icon_button {
+		padding: 20px;
+		border: none;
+		background-color: #4fd620;
+		color: white;
+		font-size: 118%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 10px;
+	}
+	.icon_button:hover {
+		background-color: #88ec66;
+		color: white;
+		border-color: #4fd620;
+	}
+	</pre>
+	</div> <!--[END]#icon_button_code_snippetcs -->
+	</div>
+	</div>	
+	</header>
+	</section>
+    </article>
+ </div> <!--[END]content -->
+</main>
+</body>
