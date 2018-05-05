@@ -6,16 +6,16 @@ Appropiate documentation contating the description and usage of the component ha
 
 # Content
 
-Navigation
-Header Element
-Buttons
-   Default Button
-   Ghost Button
-   Dropdown Button
-   Flat Button
-   Small Button
-   Download
-Jumbotron
-Footer
-Pagination
-Typography
+1. Navigation
+2. Header Element
+3. Buttons
+   * Default Button
+   * Ghost Button
+   * Dropdown Button
+   * Flat Button
+   * Small Button
+   * Download
+4. Jumbotron
+5. Footer
+6. Pagination
+7. Typography
