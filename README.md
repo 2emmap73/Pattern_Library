@@ -42,4 +42,4 @@ https://2emmap73.github.io/Pattern_Library/Pagination.html
 
 # Typography
 Typography is the visual component of any website. It is needed for the users of the site to read the information displayed on the website.
-https://2emmap73.github.io/Pattern_Library/index.html
+https://2emmap73.github.io/Pattern_Library/typography.html
